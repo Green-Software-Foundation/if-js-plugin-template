@@ -1,0 +1,17 @@
+name: plugin-demo-link
+description: loads plugin
+tags: null
+initialize:
+  plugins:
+    custom-plugin:
+      method: MyCustomPlugin
+      path: if-js-plugin-template
+tree:
+  children:
+    child:
+      pipeline:
+        compute:
+          - custom-plugin
+      inputs:
+        - timestamp: '2024-07-10T11:51:48.467730+00:00'
+          duration: 3600
