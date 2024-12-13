@@ -1,0 +1,28 @@
+{
+  "name": "if-js-plugin-template",
+  "version": "0.0.1",
+  "description": "\"<PLUGIN-NAME> plugin for Impact Framework.\",",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": {
+    "name": "Green Software Foundation",
+    "email": "info@gsf.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@grnsft/if-core": "^0.0.28"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "eslint": "^9.16.0",
+    "babel-jest": "^29.7.0",
+    "fixpack": "^4.0.0",
+    "husky": "^9.1.7",
+    "jest": "^29.7.0",
+    "lint-staged": "^15.2.11",
+    "prettier": "^3.4.2",
+    "rimraf": "^6.0.1"
+  }
+}
